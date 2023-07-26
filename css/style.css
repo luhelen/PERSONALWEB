@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Bruno Ace SC","SF Pro Text", PingFangTC, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+}
+img{
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+.mb-160{
+  margin-bottom: 160px;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.bg-black{
+  background-color: black;
+}
+.navbar-list{
+  display: flex;
+  justify-content: space-between;  
+}
+.navbar-list li{
+  padding-top: 40px;
+}
+.navbar-list li a{
+  color:white;
+}
+.banner .container{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-me{
+  display: flex;
+  padding:12px 24px;
+  color:black;
+  border-radius: 32px;
+  background-color: white;
+  width: 185px;  
+  float:right;
+}
+.banner-name h2{
+  font-size: 64px;
+  color:white;
+}
+.banner-name h1{
+  font-size: 128px;
+  color:#00FFA3;
+}
+.instro{  
+  background-image: url(../img/background-img.png);
+}
+.instro .container{
+  display: flex;
+}
+.sparkle{
+  display: flex;
+}
+.instro-content{
+  width: 40%;
+}
+.instro-content h2{
+  font-size: 64px;
+  color:white;
+  margin-bottom: 36px;
+}
+.instro-content p{ 
+  font-size: 24px;
+  color:white;
+  margin-bottom: 32px;
+}
+.instro-img{
+  display: flex;
+  width: 60%;
+}
+.instro-img img{
+  margin-right: 24px;
+}
+.about .container{
+  display: flex;
+}
+.about-list{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;  
+}
+.about-list li{
+  border:1px solid gray;
+  width: 306px;
+  margin: 24px;  
+  padding: 16px;
+}
+.about-list h3{
+  font-size: 20px;
+}
+
+.about-content{
+  width: 40%;
+  margin-left: auto;
+}
+.about-content h2{
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.about-content p{
+  font-size: 24px;
+}
+.contact-way .container{
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.contact-way .container{
+  display: flex;
+  justify-content: space-between;
+}
+.way-content{
+  display: flex;
+  width: 60%;
+}
+.way-content h2{
+  font-size: 64px;
+  color:white;
+}
+.way-content img{
+  width: 100px;
+  height: 100px;
+}
+.contact-img{
+  display: flex;
+  width:40%;
+  
+}
+.contact-img li{
+  padding-right: 16px; 
+  width: 162px;
+  height: 162px;
+}
+
+.project-title {
+  font-size: 64px;
+  padding-left: 550px;
+}
+.project-images{
+  display: flex;
+}
+
+.text-content{
+  display: flex;  
+  margin-bottom: 28px;
+}
+.mr-24{
+  margin-right: 24px;
+}
+.img-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.see-more {  
+  padding-top:12px;
+  padding-bottom: 12px;
+  background-color: black;
+  border-radius: 32px;
+  width: 185px; 
+  text-align: center;  
+}
+.see-more a{
+  color: white;  
+}
+.footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color:white;
+  text-align: center;
+}
