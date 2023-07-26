@@ -176,11 +176,13 @@ a{
 .contact-me{
   display: flex;
   padding:12px 24px;
-  color:black;
   border-radius: 32px;
   background-color: white;
   width: 185px;  
   float:right;
+}
+.contact-me a{
+  color:black;
 }
 .banner-name h2{
   font-size: 64px;
