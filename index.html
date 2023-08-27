@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="header bg-black">
-      <div class="container">        
+    <header class="bg-black">
+      <div class="container " data-aos="fade-up" >        
         <ul class="navbar-list">
           <li>WILLIAM LEE</li>
           <li>BASED IN TAIWAN</li>
@@ -21,23 +21,23 @@
           <li>CONTACT ME</li>
         </ul>        
       </div>            
-    </div>
-    <div class="banner bg-black">
+    </header>
+    <nav class="bg-black">
       <div class="container">          
         <img src="img/people.png" alt="people">
-        <div class="banner-name">
-          <h2>Hi<br>I’m a front-end developer</h2>            
-          <h1>William</h1>
-          <div class="contact-me">
+        <div class="banner-name" data-aos="fade-up">
+          <h2 >Hi<br>I’m a front-end developer</h2>            
+          <h1 >William</h1>
+          <div class="contact-me" data-aos="fade-up">
             <a href="#">contact me
             <img src="img/arrow_outward.png" alt="arrow_outward"></a>
           </div>
         </div>
-      </div>
+      </nav>
     </div>
     <div class="instro mb-160">
-        <div class="container">
-          <div class="instro-content">
+        <div class="container" data-aos="fade-up">
+          <div class="instro-content" >
             <h2>Introduction</h2>
             <p>Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
             <div class="sparkle">
@@ -50,14 +50,14 @@
         </div>        
     </div>
     <div class="about mb-160">
-      <div class="container">
-        <ol class="about-list">
+      <div class="container" >
+        <ol class="about-list" data-aos="fade-up">
           <li><p>01</p><h3>Attention to Detail</h3><p>Meticulous code analysis and optimization.</p></li>
           <li><p>02</p><h3>Adaptability</h3><p>Swift learning of new technologies.</p></li>
           <li><p>03</p><h3>Problem Solver</h3><p>Identifying and resolving issues.</p></li>
           <li><p>04</p><h3>Team Player</h3><p>Collaborates and shares ideas</p></li>
         </ol>
-        <div class="about-content ">
+        <div class="about-content " data-aos="fade-up">
           <h2>About Me</h2>
           <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
         </div>
@@ -65,7 +65,7 @@
     </div>
     <div class="contact-way mb-160 ">
       <div class="container">
-        <div class="way-content"><h2>CONTACT ME</h2><img src="img/trending_flat_black_24dp 1.png" alt="trending_flat_black"></div>        
+        <div class="way-content" data-aos="fade-up"><h2>CONTACT ME</h2><img src="img/trending_flat_black_24dp 1.png" alt="trending_flat_black"></div>        
         <ul class="contact-img">
           <li><a href="#"><img src="img/discord.png" alt="discord"></a></li>
           <li><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
@@ -75,8 +75,8 @@
     </div>
     <div class="projects mb-160">
       <div class="container">
-        <div  class="project-title"><h2>My Projects</h2></div>
-        <div class="project-images">
+        <div  class="project-title" data-aos="fade-up"><h2>My Projects</h2></div>
+        <div class="project-images" data-aos="fade-up">
           <img class="mr-24" src="img/Rectangle 10.png" alt="Rectangle10">
           <div class="project-content">
             <div class="text-content">
@@ -91,8 +91,13 @@
         </div>
       </div>
     </div>    
-    <div class="footer bg-black">
+    <footer class="bg-black">
       <p>all rights reserved @hexschool2023</p>
-    </div>
+    </footer>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

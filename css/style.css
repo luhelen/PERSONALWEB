@@ -168,7 +168,7 @@ a{
   color:white;
 }
 
-.banner .container{
+nav .container{
   display: flex;
   justify-content: space-between;
   padding: 72px 0;
